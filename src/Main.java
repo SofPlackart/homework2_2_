@@ -8,8 +8,8 @@ public class Main {
         int withBonus = bonus + onAccount + deposit;
         int noBonus = onAccount + deposit;
 
-        if (deposit >= 1000) {
-            System.out.println("На счету: " + withBonus );
+        if (deposit > 1000) {
+            System.out.println("На счету: " + withBonus);
         } else {
             System.out.println("На счету: " + noBonus);
         }
